@@ -25,7 +25,7 @@ _<br>_
 
 <br>
 
-### Cсылка на проект: 
+### Cсылка на проект: https://hukakou.github.io/russian-travel/
 
 <br>
 
