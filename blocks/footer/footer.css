@@ -1,0 +1,32 @@
+.footer {
+    padding: 0 0 24px 0;
+    margin: 92px 48px 0px;
+    display: flex;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 88px 24px 0px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .footer {
+        padding: 0 0 54px 0;
+        flex-direction: column;
+        position: relative;
+        margin: 97px 16px 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding: 0 0 54px 0;
+        margin: 97px 16px 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+}

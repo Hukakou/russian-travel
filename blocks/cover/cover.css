@@ -1,0 +1,51 @@
+.cover{
+    padding: 0;
+    margin: 92px auto 0;
+    min-height: calc((100vw/1.6) - 48px);
+    background-image: url(../../images/__background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.cover::before {
+    content: " ";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        min-height: calc(100vw/1.6);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 90px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin: 41px 0 0 0;
+    }
+}

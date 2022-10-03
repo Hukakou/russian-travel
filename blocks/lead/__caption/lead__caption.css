@@ -1,0 +1,31 @@
+.lead__caption {
+    min-width: 984px;
+    padding: 0;
+    margin: 8px auto 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        min-width: calc(100vw - (48px * 2));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        min-width: calc(100vw - (24px * 2));
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        min-width: calc(100vw - (16px * 2));
+    }
+}

@@ -1,0 +1,12 @@
+.main-photo {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1184px;
+}
+
+@media screen and (max-width: 1280px) {
+    .main-photo {
+        max-width: 100%;
+        margin: 0 48px;
+    }
+}
