@@ -1,5 +1,5 @@
 .page {
-    padding: 0;
+    padding: 0 0 24px 0;
     margin: 0;
     background-color: #2A2C2F;
     color: white;
@@ -9,32 +9,6 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-}
-
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("../../vendor/fonts/Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
-        url("../../vendor/fonts/Inter\ Web/Inter-Regular.woff?v=3.19") format("woff");
-}
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../../vendor/fonts/Inter\ Web/Inter-Bold.woff2?v=3.19") format("woff2"),
-        url("../../vendor/fonts/Inter\ Web/Inter-Bold.woff?v=3.19") format("woff");
-}
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url("../../vendor/fonts/Inter\ Web/Inter-Black.woff2?v=3.19") format("woff2"),
-        url("../../vendor/fonts/Inter\ Web/Inter-Black.woff?v=3.19") format("woff");
+    font-family: 'Inter', "Arial", sans-serif;
+    ;
 }

@@ -29,7 +29,7 @@
     .photo-grid {
         margin: 64px 16px 64px;
         gap: 12px;
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
     }
 }
