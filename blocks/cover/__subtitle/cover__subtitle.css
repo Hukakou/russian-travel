@@ -8,16 +8,10 @@
     text-align: center;
     position: relative;
     max-width: 360px;
+    z-index: 10;
 }
 
 @media screen and (max-width: 380px) {
-    .cover__subtitle {
-        font-size: 14px;
-        line-height: 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .cover__subtitle {
         margin-top: 16px;
         font-size: 14px;

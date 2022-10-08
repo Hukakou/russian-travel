@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        margin-left: 48px;
-        margin-right: 48px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
 
