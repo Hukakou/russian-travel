@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1148px) {
     .lead__caption {
-        min-width: calc(4px + 880 * (100vw / 1280));
+        min-width: calc(880 * (100vw / 1148));
     }
 }
 

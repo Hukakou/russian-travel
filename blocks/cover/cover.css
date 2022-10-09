@@ -1,17 +1,17 @@
 .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     padding: 0;
     margin: 92px 48px 0;
     max-width: 1184px;
-    min-height: calc((100vw/1.6) - 60px);
     text-align: center;
-    align-items: center;
     z-index: 0;
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
-        min-height: 740px;
         margin-left: auto;
         margin-right: auto;
 
@@ -21,7 +21,6 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        min-height: calc(100vw/1.6);
         margin-left: 0;
         margin-right: 0;
     }
